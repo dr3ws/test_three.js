@@ -84,9 +84,9 @@ function initScene() {
 }
 
 let urls = [
-    './images/_ft.bmp', './images/_bk.bmp',
-    './images/_up.bmp', './images/_dn.bmp',
-    './images/_rt.bmp', './images/_lf.bmp'
+    './images/_ft.png', './images/_bk.png',
+    './images/_up.png', './images/_dn.png',
+    './images/_rt.png', './images/_lf.png'
 ];
 let loader = new THREE.CubeTextureLoader();
 SCENE.background = loader.load(urls);
